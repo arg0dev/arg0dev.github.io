@@ -17,7 +17,6 @@ h1 span {
 .copyright {
     font-family: 'DM Mono', monospace;
     font-weight: 300;
-    border-right: 10px solid #f4b543;
     padding-right: 5px !important;
     margin-top: 100px;
 }
@@ -30,6 +29,10 @@ h1 span {
     font-weight: 500;
     font-family: 'DM Mono', monospace;
 }
+
+  .b0-r {
+    border-right: 10px solid #f4b543;
+  }
 
 .decl {
     font-weight: 500;
@@ -50,7 +53,7 @@ header {
   
   header video {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     width: auto;
     height: auto;
@@ -66,6 +69,10 @@ header {
     z-index: 2;
   }
   
+.container {
+  margin-top: 50px;
+}
+
   header .overlay {
     position: absolute;
     top: 0;
@@ -77,6 +84,16 @@ header {
     z-index: 1;
   }
   
+  .social i {
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 2em;
+    transition: ease-in 0.5s;
+  }
+
+  .social i:hover {
+    color: #f4b543;
+  }
+
   @media (pointer: coarse) and (hover: none) {
     header {
       background: url('/media/fw1600.jpg') black no-repeat center center scroll;
