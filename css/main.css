@@ -94,6 +94,11 @@ header {
     color: #f4b543;
   }
 
+  .mask {
+    color: #f4b543;
+  }
+  
+
   @media (pointer: coarse) and (hover: none) {
     header {
       background: url('/media/fw1600.jpg') black no-repeat center center scroll;
