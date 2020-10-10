@@ -350,16 +350,16 @@
           <form method="POST" action="http://koskarena.com/assets/php/process.php">
             <div class="row">
               <div class="col-12 mb-xl-5 mb-lg-4 mt-xl-5 mt-lg-4 mt-md-3 mb-md-3 mt-4 mb-4">
-                <input id="nameSurname" type="text" class="form-control arg0form" placeholder="Name & Surname" required>
+                <input id="nameSurname" name="nameSurname" type="text" class="form-control arg0form" placeholder="Name & Surname" required>
               </div>
               <div class="col-12">
-                <input id="mail" type="email" class="form-control arg0form" placeholder="Your Email Address" required>
+                <input id="mail" name="mail" type="email" class="form-control arg0form" placeholder="Your Email Address" required>
               </div>
               <div class="col-12 mb-xl-5 mb-lg-4 mt-xl-5 mt-lg-4 mt-md-3 mb-md-3 mt-4 mb-2">
-                <input id="subject" type="text" class="form-control arg0form" placeholder="Subject" required>
+                <input id="subject" name="subject" type="text" class="form-control arg0form" placeholder="Subject" required>
               </div>
               <div class="col-12 mb-xl-4 mb-lg-4 mb-md-4 mt-4 mb-4">
-                <textarea id="message" required type="text" rows="10" class="form-control arg0form" placeholder="Your Message"></textarea>
+                <textarea id="message" name="message" required type="text" rows="10" class="form-control arg0form" placeholder="Your Message"></textarea>
               </div>
             </div>
             <button value="Submit" name="submit" type="submit" class="btn btn-f-line mb-xl-0 mb-lg-0 mb-md-0 mb-5">Send
