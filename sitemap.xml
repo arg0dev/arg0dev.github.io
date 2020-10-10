@@ -2,7 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
   <loc>https://arg0.dev/</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2020-07-31</lastmod>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2020-10-10</lastmod>
 </url>
 </urlset>
