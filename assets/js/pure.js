@@ -8,9 +8,9 @@ v0lumeChk = 0;
 logoChk = 0;
 togglerChk = false;
 
-window.onscroll = function () { myFunction() };
+window.onscroll = function () { scrollChk() };
 
-function myFunction() {
+function scrollChk() {
     var navScroll = document.getElementById("navBG");
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 && desktopTogglerChk == 0) {
         navScroll.classList.remove('arg0transparent');
