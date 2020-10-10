@@ -815,17 +815,6 @@ footer .col-md-5 #stl-f {
   transition: 1s ease all;
 }
 
-.g-recaptcha {
-  border: solid 1px;
-  width: 335px;
-  padding: 1em 0em 1em 1em;
-  transform: scale(0.65);
-  -webkit-transform: scale(0.65);
-  transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
-  margin-bottom: -1em;
-}
-
 ::-webkit-scrollbar {
   width: 5px;
 }
