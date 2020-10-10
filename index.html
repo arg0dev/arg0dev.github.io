@@ -347,7 +347,7 @@
         </div>
         <div class="col-md-4 text-center text-xl-left text-lg-left text-md-left">
           <h1>Let's get in touch.</h1>
-          <form method="POST" action="http://koskarena.com/assets/php/process.php" onsubmit="return submitUserForm();">
+          <form method="POST" action="http://koskarena.com/assets/php/process.php">
             <div class="row">
               <div class="col-12 mb-xl-5 mb-lg-4 mt-xl-5 mt-lg-4 mt-md-3 mb-md-3 mt-4 mb-4">
                 <input id="nameSurname" type="text" class="form-control arg0form" placeholder="Name & Surname" required>
@@ -362,7 +362,6 @@
                 <textarea id="message" required type="text" rows="10" class="form-control arg0form" placeholder="Your Message"></textarea>
               </div>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LfmsNUZAAAAADH0pLxGvWYriinnbbTMnkaMzHru" data-callback="verifyCaptcha"></div>
             <button value="Submit" name="submit" type="submit" class="btn btn-f-line mb-xl-0 mb-lg-0 mb-md-0 mb-5">Send
               Message</button>
           </form>
@@ -420,13 +419,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
     integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
     crossorigin="anonymous"></script>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
-  <script>
-    function onSubmit(token) {
-      document.getElementById("demo-form").submit();
-    }
-  </script>
-
   <script type="text/javascript" src="./assets/js/pure.js"></script>
 </body>
 
