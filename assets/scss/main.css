@@ -23,9 +23,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  body .information {
-    display: none !important;
-  }
   body .btn-line {
     padding: 0.5em 0em 0.5em 0em !important;
   }
@@ -329,7 +326,7 @@ header .horizon {
 }
 
 .argSec1 .information {
-  color: #000;
+  color: #fff;
 }
 
 .argSec1 div.m-image {
