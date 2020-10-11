@@ -826,4 +826,10 @@ footer .col-md-5 #stl-f {
 ::-webkit-scrollbar-thumb {
   background: #868686;
 }
+
+#seoChk {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
 /*# sourceMappingURL=main.css.map */
