@@ -1,7 +1,8 @@
 var arg0block;
 
 function loadJS() {
-  arg0block = setTimeout(namasteFunc, 1800000);
+  //arg0block = setTimeout(namasteFunc, 1800000);
+  arg0block = setTimeout(namasteFunc, 36000000);
 }
 
 function namasteFunc() {
