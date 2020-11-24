@@ -52,6 +52,27 @@
 
 <body>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCIXctTCHnO-arI4LExye8a4Z63R9uivh4",
+      authDomain: "view-arg0.firebaseapp.com",
+      databaseURL: "https://view-arg0.firebaseio.com",
+      projectId: "view-arg0",
+      storageBucket: "view-arg0.appspot.com",
+      messagingSenderId: "1099016728706",
+      appId: "1:1099016728706:web:97b81820e9e9680ecc049b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
   <nav id="navBG" class="navbar fixed-top navbar-expand-lg navbar-dark arg0transparent container-fluid">
     <div class="col-md-11 d-flex justify-content-between mx-auto">
       <a href="#top" duration="1000" easing="smooth" scrollTo="top" class="scrollOnClick navbar-brand"><img
