@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script>
+        console.log(navigator.userAgent);
+        if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+            window.location.href = "https://apps.apple.com/app/id1534494705";
+        }
+        else if( /Android|webOS/i.test(navigator.userAgent) ) {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.daxici.user";
+        }
+        else {
+            window.location.href = "https://daxici.com"
+        }
+        
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
